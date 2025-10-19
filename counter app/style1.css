@@ -1,0 +1,53 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+#count-el {
+  font-size: 3rem;
+  color: #222;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+#increment-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#increment-btn:hover {
+  background-color: #45a049;
+}
+
+#save-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+#save-btn:hover {
+  background-color: #0b7dda;
+}
